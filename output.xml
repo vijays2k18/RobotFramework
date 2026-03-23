@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.4.2 (Python 3.13.7 on win32)" generated="2026-03-23T09:43:19.054020" rpa="false" schemaversion="5">
+<robot generator="Robot 7.4.2 (Python 3.13.7 on win32)" generated="2026-03-23T10:22:03.695133" rpa="false" schemaversion="5">
 <suite id="s1" name="Sampletest" source="C:\Users\ACER\Desktop\Robot FrameWork\testcases\sampletest.robot">
 <test id="s1-t1" name="Flipkart End To End Test" line="7">
 <kw name="Open a Browser" owner="resource">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:19.251515" level="INFO">Opening browser 'chrome' to base url 'https://www.flipkart.com/'.</msg>
+<msg time="2026-03-23T10:22:03.892257" level="INFO">Opening browser 'chrome' to base url 'https://www.flipkart.com/'.</msg>
 <arg>${url}</arg>
 <arg>${browserName}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2026-03-23T09:43:19.251270" elapsed="2.809953"/>
+<status status="PASS" start="2026-03-23T10:22:03.892020" elapsed="4.030343"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2026-03-23T09:43:22.061493" elapsed="0.094296"/>
+<status status="PASS" start="2026-03-23T10:22:07.923257" elapsed="0.053280"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:19.250541" elapsed="2.905540"/>
+<status status="PASS" start="2026-03-23T10:22:03.891357" elapsed="4.085422"/>
 </kw>
 <kw name="Close Pop Up Dialog Box" owner="resource">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>${btn_popBtn}</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-03-23T09:43:22.159117" elapsed="0.439429"/>
+<status status="PASS" start="2026-03-23T10:22:07.979150" elapsed="0.200065"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:22.599305" level="INFO">Clicking element 'xpath=//*[contains(@class,'b3wTlE')]'.</msg>
+<msg time="2026-03-23T10:22:08.179829" level="INFO">Clicking element 'xpath=//*[contains(@class,'b3wTlE')]'.</msg>
 <arg>${btn_popBtn}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:22.598871" elapsed="0.161557"/>
+<status status="PASS" start="2026-03-23T10:22:08.179492" elapsed="0.146097"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:22.158549" elapsed="0.602074"/>
+<status status="PASS" start="2026-03-23T10:22:07.978020" elapsed="0.347740"/>
 </kw>
 <kw name="Search Watch and Press Enter" owner="resource">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:22.762501" level="INFO">Typing text 'Watch' into text field 'xpath=//input[@name='q']'.</msg>
+<msg time="2026-03-23T10:22:08.326916" level="INFO">Typing text 'Watch' into text field 'xpath=//input[@name='q']'.</msg>
 <arg>${txt_searchBox}</arg>
 <arg>Watch</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:22.761966" elapsed="0.367276"/>
+<status status="PASS" start="2026-03-23T10:22:08.326616" elapsed="0.289212"/>
 </kw>
 <kw name="Press Keys" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:23.130099" level="INFO">Sending key(s) ('ENTER',) to xpath=//input[@name='q'] element.</msg>
-<msg time="2026-03-23T09:43:23.439150" level="INFO">Pressing special key ENTER to element.</msg>
-<msg time="2026-03-23T09:43:23.439305" level="INFO">Releasing special key ENTER.</msg>
+<msg time="2026-03-23T10:22:08.617032" level="INFO">Sending key(s) ('ENTER',) to xpath=//input[@name='q'] element.</msg>
+<msg time="2026-03-23T10:22:08.932550" level="INFO">Pressing special key ENTER to element.</msg>
+<msg time="2026-03-23T10:22:08.932697" level="INFO">Releasing special key ENTER.</msg>
 <arg>${txt_searchBox}</arg>
 <arg>ENTER</arg>
 <doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
-<status status="PASS" start="2026-03-23T09:43:23.129522" elapsed="2.334776"/>
+<status status="PASS" start="2026-03-23T10:22:08.616224" elapsed="2.111795"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-23T09:43:30.465722" level="INFO">Slept 5 seconds.</msg>
+<msg time="2026-03-23T10:22:15.729571" level="INFO">Slept 5 seconds.</msg>
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-23T09:43:25.464641" elapsed="5.001311"/>
+<status status="PASS" start="2026-03-23T10:22:10.728441" elapsed="5.001384"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:22.761091" elapsed="7.705124"/>
+<status status="PASS" start="2026-03-23T10:22:08.326241" elapsed="7.403828"/>
 </kw>
 <kw name="Select 3rd Product from First Row" owner="resource">
 <kw name="Get Element Count" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:30.493491" level="INFO">${count} = 33</msg>
+<msg time="2026-03-23T10:22:15.765603" level="INFO">${count} = 31</msg>
 <var>${count}</var>
 <arg>${txt_productCount}</arg>
 <doc>Returns the number of elements matching ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.468220" elapsed="0.025372"/>
+<status status="PASS" start="2026-03-23T10:22:15.731895" elapsed="0.033803"/>
 </kw>
 <for flavor="IN RANGE">
 <iter>
@@ -72,39 +72,39 @@
 <var>${productPrice}</var>
 <arg>(//div[@class='p0C73x']//div[contains(@class,'hZ3P6w')])[${i}]</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.495127" elapsed="0.000071"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.767352" elapsed="0.000069"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
 <var>${actualProductPrice}</var>
 <arg>int("${productPrice}".replace("₹","").strip())</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.495451" elapsed="0.000065"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.767669" elapsed="0.000060"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Price: ${actualProductPrice}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.495734" elapsed="0.000052"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.767934" elapsed="0.000059"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
 <arg>(//div[@class='p0C73x']/a[@class='atJtCj'])[${i}]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.495936" elapsed="0.000056"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.768418" elapsed="0.000308"/>
 </kw>
 <kw name="Set Test Variable" owner="BuiltIn">
 <arg>${actualProductPrice}</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.496235" elapsed="0.000065"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.769766" elapsed="0.000140"/>
 </kw>
 <kw name="Exit For Loop" owner="BuiltIn">
 <doc>Stops executing the enclosing FOR loop.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.496501" elapsed="0.000056"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.770548" elapsed="0.000383"/>
 </kw>
-<status status="NOT RUN" start="2026-03-23T09:43:30.494668" elapsed="0.001969"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.766845" elapsed="0.004327"/>
 </branch>
-<status status="PASS" start="2026-03-23T09:43:30.494617" elapsed="0.002118"/>
+<status status="PASS" start="2026-03-23T10:22:15.766792" elapsed="0.004524"/>
 </if>
 <var name="${i}">1</var>
-<status status="PASS" start="2026-03-23T09:43:30.494482" elapsed="0.002316"/>
+<status status="PASS" start="2026-03-23T10:22:15.766649" elapsed="0.004770"/>
 </iter>
 <iter>
 <if>
@@ -113,231 +113,231 @@
 <var>${productPrice}</var>
 <arg>(//div[@class='p0C73x']//div[contains(@class,'hZ3P6w')])[${i}]</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.497644" elapsed="0.000050"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.772452" elapsed="0.000061"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
 <var>${actualProductPrice}</var>
 <arg>int("${productPrice}".replace("₹","").strip())</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.497893" elapsed="0.000052"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.772732" elapsed="0.000056"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Price: ${actualProductPrice}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.498131" elapsed="0.000053"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.772985" elapsed="0.000055"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
 <arg>(//div[@class='p0C73x']/a[@class='atJtCj'])[${i}]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.498378" elapsed="0.000052"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.773268" elapsed="0.000059"/>
 </kw>
 <kw name="Set Test Variable" owner="BuiltIn">
 <arg>${actualProductPrice}</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.498636" elapsed="0.000055"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.773590" elapsed="0.000060"/>
 </kw>
 <kw name="Exit For Loop" owner="BuiltIn">
 <doc>Stops executing the enclosing FOR loop.</doc>
-<status status="NOT RUN" start="2026-03-23T09:43:30.498872" elapsed="0.000054"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.773848" elapsed="0.000052"/>
 </kw>
-<status status="NOT RUN" start="2026-03-23T09:43:30.497309" elapsed="0.001693"/>
+<status status="NOT RUN" start="2026-03-23T10:22:15.772012" elapsed="0.001964"/>
 </branch>
-<status status="PASS" start="2026-03-23T09:43:30.497266" elapsed="0.001846"/>
+<status status="PASS" start="2026-03-23T10:22:15.771974" elapsed="0.002088"/>
 </if>
 <var name="${i}">2</var>
-<status status="PASS" start="2026-03-23T09:43:30.497166" elapsed="0.002007"/>
+<status status="PASS" start="2026-03-23T10:22:15.771853" elapsed="0.002267"/>
 </iter>
 <iter>
 <if>
 <branch type="IF" condition="${i} == 3">
 <kw name="Get Text" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:30.534226" level="INFO">${productPrice} = ₹146</msg>
+<msg time="2026-03-23T10:22:15.823591" level="INFO">${productPrice} = ₹146</msg>
 <var>${productPrice}</var>
 <arg>(//div[@class='p0C73x']//div[contains(@class,'hZ3P6w')])[${i}]</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.500467" elapsed="0.033868"/>
+<status status="PASS" start="2026-03-23T10:22:15.774903" elapsed="0.048823"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2026-03-23T09:43:30.535646" level="INFO">${actualProductPrice} = 146</msg>
+<msg time="2026-03-23T10:22:15.825173" level="INFO">${actualProductPrice} = 146</msg>
 <var>${actualProductPrice}</var>
 <arg>int("${productPrice}".replace("₹","").strip())</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.534660" elapsed="0.001033"/>
+<status status="PASS" start="2026-03-23T10:22:15.824097" elapsed="0.001177"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Price: ${actualProductPrice}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.535942" elapsed="0.001087"/>
+<status status="PASS" start="2026-03-23T10:22:15.825548" elapsed="0.001236"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:30.537653" level="INFO">Clicking element '(//div[@class='p0C73x']/a[@class='atJtCj'])[3]'.</msg>
+<msg time="2026-03-23T10:22:15.827679" level="INFO">Clicking element '(//div[@class='p0C73x']/a[@class='atJtCj'])[3]'.</msg>
 <arg>(//div[@class='p0C73x']/a[@class='atJtCj'])[${i}]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.537332" elapsed="0.190751"/>
+<status status="PASS" start="2026-03-23T10:22:15.827159" elapsed="0.191429"/>
 </kw>
 <kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2026-03-23T09:43:30.729333" level="INFO">${actualProductPrice} = 146</msg>
+<msg time="2026-03-23T10:22:16.019812" level="INFO">${actualProductPrice} = 146</msg>
 <arg>${actualProductPrice}</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.728439" elapsed="0.000986"/>
+<status status="PASS" start="2026-03-23T10:22:16.018960" elapsed="0.000973"/>
 </kw>
 <kw name="Exit For Loop" owner="BuiltIn">
-<msg time="2026-03-23T09:43:30.730217" level="INFO">Exiting for loop altogether.</msg>
+<msg time="2026-03-23T10:22:16.020600" level="INFO">Exiting for loop altogether.</msg>
 <doc>Stops executing the enclosing FOR loop.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.729743" elapsed="0.000652"/>
+<status status="PASS" start="2026-03-23T10:22:16.020199" elapsed="0.000592"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:30.500010" elapsed="0.230507"/>
+<status status="PASS" start="2026-03-23T10:22:15.774551" elapsed="0.246360"/>
 </branch>
-<status status="PASS" start="2026-03-23T09:43:30.499976" elapsed="0.230663"/>
+<status status="PASS" start="2026-03-23T10:22:15.774520" elapsed="0.246503"/>
 </if>
 <var name="${i}">3</var>
-<status status="PASS" start="2026-03-23T09:43:30.499861" elapsed="0.230854"/>
+<status status="PASS" start="2026-03-23T10:22:15.774437" elapsed="0.246655"/>
 </iter>
 <var>${i}</var>
 <value>1</value>
 <value>${count}+1</value>
-<status status="PASS" start="2026-03-23T09:43:30.493797" elapsed="0.237045"/>
+<status status="PASS" start="2026-03-23T10:22:15.765914" elapsed="0.255319"/>
 </for>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-23T09:43:35.732306" level="INFO">Slept 5 seconds.</msg>
+<msg time="2026-03-23T10:22:21.022633" level="INFO">Slept 5 seconds.</msg>
 <arg>5</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-23T09:43:30.731143" elapsed="5.001450"/>
+<status status="PASS" start="2026-03-23T10:22:16.021511" elapsed="5.001374"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:30.467537" elapsed="5.265347"/>
+<status status="PASS" start="2026-03-23T10:22:15.731209" elapsed="5.291962"/>
 </kw>
 <kw name="Switch to New Window" owner="resource">
 <kw name="Switch Window" owner="SeleniumLibrary">
 <arg>NEW</arg>
 <doc>Switches to browser window matching ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.735369" elapsed="0.017984"/>
+<status status="PASS" start="2026-03-23T10:22:21.025381" elapsed="0.027882"/>
 </kw>
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>${txt_getProductTitle}</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.753725" elapsed="0.049689"/>
+<status status="PASS" start="2026-03-23T10:22:21.053966" elapsed="0.061601"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:35.734412" elapsed="0.069221"/>
+<status status="PASS" start="2026-03-23T10:22:21.024572" elapsed="0.091237"/>
 </kw>
 <kw name="Get PDP Product Price" owner="resource">
 <kw name="Get Text" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:35.856917" level="INFO">${price1} = ₹146</msg>
+<msg time="2026-03-23T10:22:21.156231" level="INFO">${price1} = ₹146</msg>
 <var>${price1}</var>
 <arg>${txt_getProductPrice}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.805033" elapsed="0.051987"/>
+<status status="PASS" start="2026-03-23T10:22:21.117025" elapsed="0.039290"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>PDP Price: ${price1}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.857353" elapsed="0.001566"/>
+<status status="PASS" start="2026-03-23T10:22:21.156575" elapsed="0.000799"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2026-03-23T09:43:35.859956" level="INFO">${productPrice} = 146</msg>
+<msg time="2026-03-23T10:22:21.158182" level="INFO">${productPrice} = 146</msg>
 <var>${productPrice}</var>
 <arg>int("${price1}".replace("₹","").strip())</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.859159" elapsed="0.000863"/>
+<status status="PASS" start="2026-03-23T10:22:21.157614" elapsed="0.000625"/>
 </kw>
 <kw name="Set Test Variable" owner="BuiltIn">
-<msg time="2026-03-23T09:43:35.861104" level="INFO">${productPrice} = 146</msg>
+<msg time="2026-03-23T10:22:21.159003" level="INFO">${productPrice} = 146</msg>
 <arg>${productPrice}</arg>
 <doc>Makes a variable available everywhere within the scope of the current test.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.860322" elapsed="0.000865"/>
+<status status="PASS" start="2026-03-23T10:22:21.158454" elapsed="0.000625"/>
 </kw>
 <return>
 <value>${productPrice}</value>
-<status status="PASS" start="2026-03-23T09:43:35.861341" elapsed="0.000114"/>
+<status status="PASS" start="2026-03-23T10:22:21.159201" elapsed="0.000085"/>
 </return>
-<msg time="2026-03-23T09:43:35.861715" level="INFO">${pdpPrice} = 146</msg>
+<msg time="2026-03-23T10:22:21.159504" level="INFO">${pdpPrice} = 146</msg>
 <var>${pdpPrice}</var>
-<status status="PASS" start="2026-03-23T09:43:35.804387" elapsed="0.057394"/>
+<status status="PASS" start="2026-03-23T10:22:21.116375" elapsed="0.043172"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${actualProductPrice}</arg>
 <arg>${pdpPrice}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.862292" elapsed="0.000733"/>
+<status status="PASS" start="2026-03-23T10:22:21.159863" elapsed="0.000539"/>
 </kw>
 <kw name="Add To Cart and Navigate" owner="resource">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>${btn_addtoCart}</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.864161" elapsed="0.045552"/>
+<status status="PASS" start="2026-03-23T10:22:21.161312" elapsed="0.032527"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:35.910622" level="INFO">Clicking element 'xpath=//div[text()='Add to cart']'.</msg>
+<msg time="2026-03-23T10:22:21.194397" level="INFO">Clicking element 'xpath=//div[text()='Add to cart']'.</msg>
 <arg>${btn_addtoCart}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:35.910153" elapsed="0.327843"/>
+<status status="PASS" start="2026-03-23T10:22:21.194094" elapsed="0.270836"/>
 </kw>
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:36.238600" level="INFO">Clicking element 'xpath=//span[normalize-space()='Cart']'.</msg>
+<msg time="2026-03-23T10:22:21.465596" level="INFO">Clicking element 'xpath=//span[normalize-space()='Cart']'.</msg>
 <arg>${btn_cartIcon}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:36.238236" elapsed="0.108126"/>
+<status status="PASS" start="2026-03-23T10:22:21.465221" elapsed="0.117562"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:35.863631" elapsed="0.482916"/>
+<status status="PASS" start="2026-03-23T10:22:21.160897" elapsed="0.422055"/>
 </kw>
 <kw name="Get Cart Product Price" owner="resource">
 <kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>${txt_cartPageProductPrice}</arg>
 <arg>10s</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2026-03-23T09:43:36.347641" elapsed="1.039329"/>
+<status status="PASS" start="2026-03-23T10:22:21.584299" elapsed="1.416154"/>
 </kw>
 <kw name="Get Text" owner="SeleniumLibrary">
-<msg time="2026-03-23T09:43:37.408330" level="INFO">${cartPageProductPrice} = ₹146 </msg>
+<msg time="2026-03-23T10:22:23.022996" level="INFO">${cartPageProductPrice} = ₹146 </msg>
 <var>${cartPageProductPrice}</var>
 <arg>${txt_cartPageProductPrice}</arg>
 <doc>Returns the text value of the element identified by ``locator``.</doc>
-<status status="PASS" start="2026-03-23T09:43:37.387271" elapsed="0.021148"/>
+<status status="PASS" start="2026-03-23T10:22:23.000993" elapsed="0.022119"/>
 </kw>
 <kw name="Log To Console" owner="BuiltIn">
 <arg>Cart Price: ${cartPageProductPrice}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2026-03-23T09:43:37.408726" elapsed="0.000831"/>
+<status status="PASS" start="2026-03-23T10:22:23.023459" elapsed="0.001613"/>
 </kw>
 <kw name="Evaluate" owner="BuiltIn">
-<msg time="2026-03-23T09:43:37.410377" level="INFO">${cartProductPrice} = 146</msg>
+<msg time="2026-03-23T10:22:23.026699" level="INFO">${cartProductPrice} = 146</msg>
 <var>${cartProductPrice}</var>
 <arg>int("${cartPageProductPrice}".replace("₹","").strip())</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<status status="PASS" start="2026-03-23T09:43:37.409773" elapsed="0.000653"/>
+<status status="PASS" start="2026-03-23T10:22:23.025629" elapsed="0.001166"/>
 </kw>
 <return>
 <value>${cartProductPrice}</value>
-<status status="PASS" start="2026-03-23T09:43:37.410527" elapsed="0.000068"/>
+<status status="PASS" start="2026-03-23T10:22:23.026972" elapsed="0.000113"/>
 </return>
-<msg time="2026-03-23T09:43:37.410897" level="INFO">${cartPrice} = 146</msg>
+<msg time="2026-03-23T10:22:23.027373" level="INFO">${cartPrice} = 146</msg>
 <var>${cartPrice}</var>
-<status status="PASS" start="2026-03-23T09:43:36.347105" elapsed="1.063854"/>
+<status status="PASS" start="2026-03-23T10:22:21.583492" elapsed="1.443943"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${cartPrice}</arg>
 <arg>${pdpPrice}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2026-03-23T09:43:37.411781" elapsed="0.000706"/>
+<status status="PASS" start="2026-03-23T10:22:23.028008" elapsed="0.000701"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2026-03-23T09:43:39.414100" level="INFO">Slept 2 seconds.</msg>
+<msg time="2026-03-23T10:22:25.029814" level="INFO">Slept 2 seconds.</msg>
 <arg>2</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2026-03-23T09:43:37.412909" elapsed="2.001492"/>
+<status status="PASS" start="2026-03-23T10:22:23.029069" elapsed="2.000959"/>
 </kw>
 <kw name="Close Browser Session" owner="resource">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2026-03-23T09:43:39.417002" elapsed="2.355304"/>
+<status status="PASS" start="2026-03-23T10:22:25.031495" elapsed="2.331127"/>
 </kw>
-<status status="PASS" start="2026-03-23T09:43:39.416359" elapsed="2.356171"/>
+<status status="PASS" start="2026-03-23T10:22:25.030813" elapsed="2.332072"/>
 </kw>
 <doc>Search for Watch in Flipkart, select 3rd product, verify prices match</doc>
-<status status="PASS" start="2026-03-23T09:43:19.249626" elapsed="22.523663"/>
+<status status="PASS" start="2026-03-23T10:22:03.890666" elapsed="23.473485"/>
 </test>
-<status status="PASS" start="2026-03-23T09:43:19.055733" elapsed="22.719583"/>
+<status status="PASS" start="2026-03-23T10:22:03.696882" elapsed="23.669037"/>
 </suite>
 <statistics>
 <total>
